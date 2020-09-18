@@ -13,12 +13,6 @@ table td {
   padding: 0 10px; /*内边距*/
 }
 
-table th {
-    font-weight: bold; /*加粗*/
-    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(158,188,226,0.2); /*背景色*/
-}
-
 table tbody tr:nth-child(2n) {
     background: rgba(158,188,226,0.12); 
 }
